@@ -92,7 +92,6 @@ bool Scene::init(void)
 
 bool Scene::draw(float delta_time)
 {
-    std::cerr<<"drawing \n";
     // rozpoczynamy rysowanie uzywajac ustawionego programu (shaderow) i ustawionych buforow
     gl::glDrawElements(gl::GL_TRIANGLES, 3, gl::GL_UNSIGNED_SHORT, 0);
 
