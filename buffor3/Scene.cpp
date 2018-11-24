@@ -88,12 +88,12 @@ bool Scene::init(void)
     // zbindowanie VBO do aktualnego VAO
     gl::glBindBuffer(gl::GL_ARRAY_BUFFER, vbo_handle);
     // ustalenie jak maja byc interpretowane dane z VBO
-    gl::glVertexAttribPointer(0u, 3 , gl::GL_FLOAT, gl::GL_FALSE,6*sizeof(float),(const gl::GLvoid*)(0) );
+    gl::glVertexAttribPointer(0u, 3 , gl::GL_FLOAT, gl::GL_FALSE,3*sizeof(float),(const gl::GLvoid*)(0) );
     gl::glEnableVertexAttribArray(0u);
 
     gl::glBindBuffer(gl::GL_ARRAY_BUFFER, vbo_color);
     gl::GLuint vcolor_position_loction {1u};
-    gl::glVertexAttribPointer(vcolor_position_loction, 3, gl::GL_FLOAT, gl::GL_FALSE, sizeof(float)* 6, (const gl::GLvoid*)0);
+    gl::glVertexAttribPointer(vcolor_position_loction, 3, gl::GL_FLOAT, gl::GL_FALSE, sizeof(float)* 3, (const gl::GLvoid*)0);
     gl::glEnableVertexAttribArray(vcolor_position_loction);
 
     // zbindowanie IB do aktualnego VAO

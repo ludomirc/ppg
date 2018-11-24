@@ -42,6 +42,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/cmake_install.cmake")
   include("/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/cmake_install.cmake")
   include("/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/cmake_install.cmake")
+  include("/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/cmake_install.cmake")
+  include("/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/cmake_install.cmake")
 
 endif()
 

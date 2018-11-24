@@ -1,19 +1,8 @@
 /opt/clion-2018.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/benek/workspace/g1/Grafika-master/OGLSamples
--- The C compiler identification is GNU 8.2.0
--- The CXX compiler identification is GNU 8.2.0
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: /usr/bin/c++
--- Check for working CXX compiler: /usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 Binary tree path: /home/benek/workspace/g1/Grafika-master/OGLSamples
+glbinding found: YES
+glbinding include dir: /home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include
+glbinding libraries: optimized;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding.a;optimized;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a;debug;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding.a;debug;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a
 glbinding found: YES
 glbinding include dir: /home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include
 glbinding libraries: optimized;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding.a;optimized;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a;debug;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding.a;debug;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a
