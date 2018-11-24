@@ -13,7 +13,10 @@
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
-Binary tree path: /home/benek/workspace/g1/Grafika-master/OGLSamples/cmake-build-debug
+Binary tree path: /home/benek/workspace/g1/Grafika-master/OGLSamples
+glbinding found: YES
+glbinding include dir: /home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include
+glbinding libraries: optimized;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding.a;optimized;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a;debug;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding.a;debug;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a
 glbinding found: YES
 glbinding include dir: /home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include
 glbinding libraries: optimized;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding.a;optimized;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a;debug;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding.a;debug;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a
@@ -22,4 +25,4 @@ glbinding include dir: /home/benek/workspace/g1/Grafika-master/OGLSamples/../Lib
 glbinding libraries: optimized;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding.a;optimized;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a;debug;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding.a;debug;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/benek/workspace/g1/Grafika-master/OGLSamples/cmake-build-debug
+-- Build files have been written to: /home/benek/workspace/g1/Grafika-master/OGLSamples
