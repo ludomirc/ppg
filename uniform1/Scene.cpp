@@ -25,16 +25,19 @@ bool Scene::init(void)
         std::cerr << "Error - can't create program..." << std::endl;
         return false;
     }
-
+    auto color_uniform_index = gl::glGetUniformBlockIndex(simple_program, "Color");
+    if(color_uniform_index == -1)  {
+        std::cerr<<"Uniform Color not found\n";
+    }
     // ustawienie informacji o lokalizacji atrybutu pozycji w vs (musi sie zgadzac z tym co mamy w VS!!!)
     gl::GLuint vertex_position_loction = 0u;
 
     // ustawienie programu, ktory bedzie uzywany podczas rysowania
     gl::glUseProgram(simple_program);
     gl::glEnable(gl::GL_DEPTH_TEST);
-    gl::glEnable(gl::GL_CULL_FACE);
-    gl::glFrontFace(gl::GL_CCW);
-    gl::glCullFace(gl::GL_BACK);
+    //gl::glEnable(gl::GL_CULL_FACE);
+    //gl::glFrontFace(gl::GL_CCW);
+    //gl::glCullFace(gl::GL_BACK);
    // stworzenie tablicy z danymi o wierzcholkach 3x (x, y, z)
     gl::GLfloat vertices[] = {
             -0.5,-0.5,0.0,
@@ -88,7 +91,15 @@ bool Scene::init(void)
     // odbindowanie buffora zbindowanego jako VBO (zeby przypadkiem nie narobic sobie klopotow...)
     glBindBuffer(gl::GL_ARRAY_BUFFER, 0);
 
+    //uniform
 
+    gl::GLuint ubo_handle(0u);
+    gl::glGenBuffers(1,&ubo_handle);
+    gl::glBindBuffer(gl::GL_UNIFORM_BUFFER, ubo_handle);
+    gl::GLfloat intensity = 0.25;
+    gl::glBufferData(gl::GL_UNIFORM_BUFFER,sizeof(float), &intensity,gl::GL_STATIC_DRAW);
+    gl::glBindBuffer(gl::GL_UNIFORM_BUFFER, 0);
+    gl::glBindBufferBase(gl::GL_UNIFORM_BUFFER, color_uniform_index, ubo_handle);
 
     // stworzenie VAO
     gl::glGenVertexArrays(1, &vao_handle);

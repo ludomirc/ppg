@@ -221,6 +221,19 @@ buffor3/fast:
 	$(MAKE) -f buffor3/CMakeFiles/buffor3.dir/build.make buffor3/CMakeFiles/buffor3.dir/build
 .PHONY : buffor3/fast
 
+#=============================================================================
+# Target rules for targets named uniform1
+
+# Build rule for target.
+uniform1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 uniform1
+.PHONY : uniform1
+
+# fast build rule for target.
+uniform1/fast:
+	$(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/build
+.PHONY : uniform1/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -238,6 +251,7 @@ help:
 	@echo "... buffor1"
 	@echo "... buffor2"
 	@echo "... buffor3"
+	@echo "... uniform1"
 .PHONY : help
 
 
