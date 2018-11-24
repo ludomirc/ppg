@@ -1,0 +1,1 @@
+/usr/bin/c++   --std=c++17 -g   -rdynamic CMakeFiles/uniform1.dir/Scene.cpp.o CMakeFiles/uniform1.dir/Utilities.cpp.o CMakeFiles/uniform1.dir/main.cpp.o  -o uniform1 ../../Libs/glbinding/lib/Linux/linux64/libglbinding.a ../../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a --std=c++17 -lGL -lglfw -lpthread 
