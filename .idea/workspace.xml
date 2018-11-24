@@ -15,10 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e778a70d-09b6-4ca6-b2ab-7f318a021fd9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffor3/CMakeFiles/buffor3.dir/Scene.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/buffor3/CMakeFiles/buffor3.dir/Scene.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffor3/Scene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/buffor3/Scene.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffor3/buffor3" beforeDir="false" afterPath="$PROJECT_DIR$/buffor3/buffor3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -50,12 +47,12 @@
           <entry key="cpp" value="7" />
           <entry key="glsl" value="4" />
           <entry key="h" value="7" />
-          <entry key="txt" value="7" />
+          <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="7" />
+          <entry key="CMakeLists.txt" value="9" />
           <entry key="GLSL shader file" value="4" />
           <entry key="ObjectiveC" value="14" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -66,29 +63,47 @@
           <entry key="cpp" value="456" />
           <entry key="glsl" value="82" />
           <entry key="h" value="9" />
-          <entry key="txt" value="144" />
+          <entry key="txt" value="182" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="13" />
+          <entry key="CMakeLists.txt" value="14" />
           <entry key="GLSL shader file" value="82" />
           <entry key="ObjectiveC" value="465" />
-          <entry key="PLAIN_TEXT" value="131" />
+          <entry key="PLAIN_TEXT" value="168" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buffor3/Scene.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+            <state relative-caret-position="97">
+              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/uniform1/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -154,10 +169,11 @@
         <option value="$PROJECT_DIR$/buffor1/Scene.cpp" />
         <option value="$PROJECT_DIR$/buffor2/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/buffor2/Scene.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/buffor3/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/buffor2/Scene.cpp" />
         <option value="$PROJECT_DIR$/buffor3/Scene.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/uniform1/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -189,12 +205,7 @@
             <path>
               <item name="OGLSamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="OGLSamples" type="462c0819:PsiDirectoryNode" />
-              <item name="buffor2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OGLSamples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OGLSamples" type="462c0819:PsiDirectoryNode" />
-              <item name="buffor3" type="462c0819:PsiDirectoryNode" />
+              <item name="uniform1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,7 +285,7 @@
       <workItem from="1543037014304" duration="3756000" />
       <workItem from="1543055251427" duration="4262000" />
       <workItem from="1543059580580" duration="3214000" />
-      <workItem from="1543063468608" duration="4149000" />
+      <workItem from="1543063468608" duration="4407000" />
     </task>
     <task id="LOCAL-00001" summary="after buld">
       <created>1543038480838</created>
@@ -339,17 +350,24 @@
       <option name="project" value="LOCAL" />
       <updated>1543064872607</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="simple deep and wall hiding">
+      <created>1543067704664</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1543067704664</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15381000" />
+    <option name="totallyTimeSpent" value="15639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="1549" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21889554" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21889554" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -361,7 +379,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32977304" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3125" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3125" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.26805556" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -417,7 +435,8 @@
     <MESSAGE value="colors in buffers" />
     <MESSAGE value="added buffer zad 3" />
     <MESSAGE value="fix buffer read attribute" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix buffer read attribute" />
+    <MESSAGE value="simple deep and wall hiding" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple deep and wall hiding" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/buffor1/CMakeFiles/Scene.h" />
@@ -515,13 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="55" column="24" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/buffor2/Scene.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -548,11 +560,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/buffor3/Scene.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        <state relative-caret-position="97">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uniform1/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
