@@ -31,23 +31,34 @@ bool Scene::init(void)
 
     // ustawienie programu, ktory bedzie uzywany podczas rysowania
     gl::glUseProgram(simple_program);
-
-    // stworzenie tablicy z danymi o wierzcholkach 3x (x, y, z)
+    gl::glEnable(gl::GL_DEPTH_TEST);
+    gl::glEnable(gl::GL_CULL_FACE);
+    gl::glFrontFace(gl::GL_CCW);
+    gl::glCullFace(gl::GL_BACK);
+   // stworzenie tablicy z danymi o wierzcholkach 3x (x, y, z)
     gl::GLfloat vertices[] = {
             -0.5,-0.5,0.0,
             0.5,-0.5,0.0,
-            -0.5,0.5,0.0
+            -0.5,0.5,0.0,
+
+            -0.4,-0.4,-0.5,
+            0.4,-0.4,-0.5,
+            -0.4,0.4,-0.5
 
     };
     gl::GLfloat colors[] = {
             1.0, 0.0, 0.0,
-            0.0, 1.0, 0.0,
+            1.0, 0.0, 0.0,
+            1.0, 0.0, 0.0,
+
+            0.0, 0.0, 1.0,
+            0.0, 0.0, 1.0,
             0.0, 0.0, 1.0
 
     };
 
     // stworzenie tablicy z danymi o indeksach
-    gl::GLushort indices[] = {0,1,2};
+    gl::GLushort indices[] = {0,1,2,5,4,3};
 
     std::cout << "Generating buffers..." << std::endl;
     // stworzenie bufora
@@ -55,7 +66,7 @@ bool Scene::init(void)
     // zbindowanie bufora jako VBO
     gl::glBindBuffer(gl::GL_ARRAY_BUFFER, vbo_handle);
     // alokacja pamieci dla bufora zbindowanego jako VBO i skopiowanie danych z tablicy "vertices"
-    gl::glBufferData(gl::GL_ARRAY_BUFFER, 3 * 3 * sizeof(gl::GLfloat), vertices, gl::GL_STATIC_DRAW);
+    gl::glBufferData(gl::GL_ARRAY_BUFFER, 3 * 6 * sizeof(gl::GLfloat), vertices, gl::GL_STATIC_DRAW);
     // odbindowanie buffora zbindowanego jako VBO (zeby przypadkiem nie narobic sobie klopotow...)
     gl::glBindBuffer(gl::GL_ARRAY_BUFFER, 0);
 
@@ -64,7 +75,7 @@ bool Scene::init(void)
     // zbindowanie bufora jako IB
     gl::glBindBuffer(gl::GL_ELEMENT_ARRAY_BUFFER, index_buffer_handle);
     // alokacja pamieci dla bufora zbindowanego jako IB i skopiowanie danych z tablicy "indeices"
-    gl::glBufferData(gl::GL_ELEMENT_ARRAY_BUFFER, 3 * sizeof(gl::GLushort), indices, gl::GL_STATIC_DRAW);
+    gl::glBufferData(gl::GL_ELEMENT_ARRAY_BUFFER, 3 * 6 * sizeof(gl::GLushort), indices, gl::GL_STATIC_DRAW);
     // odbindowanie buffora zbindowanego jako IB (zeby przypadkiem nie narobic sobie klopotow...)
     gl::glBindBuffer(gl::GL_ELEMENT_ARRAY_BUFFER, 0);
 
@@ -73,10 +84,9 @@ bool Scene::init(void)
     // zbindowanie bufora jako VBO
     glBindBuffer(gl::GL_ARRAY_BUFFER, vbo_color);
     // alokacja pamieci dla bufora zbindowanego jako VBO i skopiowanie danych z tablicy "collors"
-    glBufferData(gl::GL_ARRAY_BUFFER, 3 * 3 * sizeof(gl::GLfloat), colors, gl::GL_STATIC_DRAW);
+    glBufferData(gl::GL_ARRAY_BUFFER, 3 * 6 * sizeof(gl::GLfloat), colors, gl::GL_STATIC_DRAW);
     // odbindowanie buffora zbindowanego jako VBO (zeby przypadkiem nie narobic sobie klopotow...)
     glBindBuffer(gl::GL_ARRAY_BUFFER, 0);
-
 
 
 
@@ -123,7 +133,7 @@ void Scene::collorBuffer(const gl::GLfloat *collors) const {
 bool Scene::draw(float delta_time)
 {
     // rozpoczynamy rysowanie uzywajac ustawionego programu (shaderow) i ustawionych buforow
-    gl::glDrawElements(gl::GL_TRIANGLES, 3, gl::GL_UNSIGNED_SHORT, 0);
+    gl::glDrawElements(gl::GL_TRIANGLES, 6, gl::GL_UNSIGNED_SHORT, 0);
 
 	return true;
 }
