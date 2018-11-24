@@ -52,3 +52,4 @@ include_directories("${PROJECT_SOURCE_DIR}/../Libs/glm/include"
 add_subdirectory(OGLSample1)
 add_subdirectory(OGLSample2_IB_VBO)
 add_subdirectory(buffor1)
+add_subdirectory(buffor2)
