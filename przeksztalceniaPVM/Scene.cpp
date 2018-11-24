@@ -29,6 +29,10 @@ bool Scene::init(void)
     if(color_uniform_index == -1)  {
         std::cerr<<"Uniform Color not found\n";
     }
+    auto modelViewProjection = gl::glGetUniformBlockIndex(simple_program, "modelViewProjection");
+    if(modelViewProjection == -1)  {
+        std::cerr<<"modelViewProjection\n";
+    }
     // ustawienie informacji o lokalizacji atrybutu pozycji w vs (musi sie zgadzac z tym co mamy w VS!!!)
     gl::GLuint vertex_position_loction = 0u;
 
@@ -91,8 +95,8 @@ bool Scene::init(void)
     // odbindowanie buffora zbindowanego jako VBO (zeby przypadkiem nie narobic sobie klopotow...)
     glBindBuffer(gl::GL_ARRAY_BUFFER, 0);
 
-    //uniform
 
+    //uniform
     gl::GLuint ubo_handle(0u);
     gl::glGenBuffers(1,&ubo_handle);
     gl::glBindBuffer(gl::GL_UNIFORM_BUFFER, ubo_handle);
@@ -100,6 +104,27 @@ bool Scene::init(void)
     gl::glBufferData(gl::GL_UNIFORM_BUFFER,sizeof(float), &intensity,gl::GL_STATIC_DRAW);
     gl::glBindBuffer(gl::GL_UNIFORM_BUFFER, 0);
     gl::glBindBufferBase(gl::GL_UNIFORM_BUFFER, color_uniform_index, ubo_handle);
+
+
+    //projection matrix
+    glm::mat4 model = glm::mat4(1.f);
+    glm::mat4 view = glm::lookAt(
+            glm::vec3(0.5f, 0.5f, 1.0f),
+            glm::vec3(0.0f, 0.0f, 0.0f),
+            glm::vec3(0.0f, 0.0f, 1.0f));
+
+    glm::mat4 proj = glm::perspective(glm::radians(45.0f), glm::radians(800.0f / 600.0f), glm::radians(1.0f), glm::radians(10.0f));
+
+    glm::mat4 mvp = proj * view * model;
+    gl::GLuint mvp_handle(0u);
+    gl::glGenBuffers(1,&mvp_handle);
+    gl::glBindBuffer(gl::GL_UNIFORM_BUFFER, mvp_handle);
+    gl::glBufferData(gl::GL_UNIFORM_BUFFER, sizeof(glm::mat4), &mvp,gl::GL_STATIC_DRAW);
+    gl::glBindBuffer(gl::GL_UNIFORM_BUFFER, 0);
+    gl::glBindBufferBase(gl::GL_UNIFORM_BUFFER, modelViewProjection, mvp_handle);
+
+
+
 
     // stworzenie VAO
     gl::glGenVertexArrays(1, &vao_handle);
