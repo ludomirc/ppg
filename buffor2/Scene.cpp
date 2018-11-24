@@ -1,8 +1,7 @@
 #include "Scene.h"
 #include "Utilities.h"
 
-Scene::Scene(void) : vbo_handle(0u), index_buffer_handle(0u), vao_handle(0u)
-{
+Scene::Scene(void) : vbo_handle(0u), index_buffer_handle(0u), vao_handle(0u), vbo_color(0u) {
 }
 
 Scene::~Scene(void)
@@ -35,9 +34,15 @@ bool Scene::init(void)
 
     // stworzenie tablicy z danymi o wierzcholkach 3x (x, y, z)
     gl::GLfloat vertices[] = {
-            -0.5,-0.5,0.0, 1.0, 0.0, 0.0,
-            0.5,-0.5,0.0, 0.0, 1.0, 0.0,
-            -0.5,0.5,0.0, 0.0, 0.0, 1.0
+            -0.5,-0.5,0.0,
+            0.5,-0.5,0.0,
+            -0.5,0.5,0.0
+
+    };
+    gl::GLfloat colors[] = {
+            1.0, 0.0, 0.0,
+            0.0, 1.0, 0.0,
+            0.0, 0.0, 1.0
 
     };
 
@@ -50,7 +55,7 @@ bool Scene::init(void)
     // zbindowanie bufora jako VBO
     gl::glBindBuffer(gl::GL_ARRAY_BUFFER, vbo_handle);
     // alokacja pamieci dla bufora zbindowanego jako VBO i skopiowanie danych z tablicy "vertices"
-    gl::glBufferData(gl::GL_ARRAY_BUFFER, 3 * 6 * sizeof(gl::GLfloat), vertices, gl::GL_STATIC_DRAW);
+    gl::glBufferData(gl::GL_ARRAY_BUFFER, 3 * 3 * sizeof(gl::GLfloat), vertices, gl::GL_STATIC_DRAW);
     // odbindowanie buffora zbindowanego jako VBO (zeby przypadkiem nie narobic sobie klopotow...)
     gl::glBindBuffer(gl::GL_ARRAY_BUFFER, 0);
 
@@ -63,6 +68,18 @@ bool Scene::init(void)
     // odbindowanie buffora zbindowanego jako IB (zeby przypadkiem nie narobic sobie klopotow...)
     gl::glBindBuffer(gl::GL_ELEMENT_ARRAY_BUFFER, 0);
 
+    //kolory
+    gl::glGenBuffers(1, &vbo_color);
+    // zbindowanie bufora jako VBO
+    glBindBuffer(gl::GL_ARRAY_BUFFER, vbo_color);
+    // alokacja pamieci dla bufora zbindowanego jako VBO i skopiowanie danych z tablicy "collors"
+    glBufferData(gl::GL_ARRAY_BUFFER, 3 * 3 * sizeof(gl::GLfloat), colors, gl::GL_STATIC_DRAW);
+    // odbindowanie buffora zbindowanego jako VBO (zeby przypadkiem nie narobic sobie klopotow...)
+    glBindBuffer(gl::GL_ARRAY_BUFFER, 0);
+
+
+
+
     // stworzenie VAO
     gl::glGenVertexArrays(1, &vao_handle);
     // zbindowanie VAO
@@ -74,8 +91,9 @@ bool Scene::init(void)
     gl::glVertexAttribPointer(0u, 3 , gl::GL_FLOAT, gl::GL_FALSE,6*sizeof(float),(const gl::GLvoid*)(0) );
     gl::glEnableVertexAttribArray(0u);
 
+    gl::glBindBuffer(gl::GL_ARRAY_BUFFER, vbo_color);
     gl::GLuint vcolor_position_loction {1u};
-    gl::glVertexAttribPointer(vcolor_position_loction, 3, gl::GL_FLOAT, gl::GL_FALSE, sizeof(float)* 6, (const gl::GLvoid*)(3*sizeof(float)));
+    gl::glVertexAttribPointer(vcolor_position_loction, 3, gl::GL_FLOAT, gl::GL_FALSE, sizeof(float)* 6, (const gl::GLvoid*)0);
     gl::glEnableVertexAttribArray(vcolor_position_loction);
 
     // zbindowanie IB do aktualnego VAO
@@ -88,6 +106,18 @@ bool Scene::init(void)
     gl::glBindVertexArray(vao_handle);
 
 	return true;
+}
+
+void Scene::collorBuffer(const gl::GLfloat *collors) const {
+
+
+//    gl::glGenBuffers(1, &vbo_color);
+//    // zbindowanie bufora jako VBO
+//    glBindBuffer(gl::GL_ARRAY_BUFFER, vbo_color);
+//    // alokacja pamieci dla bufora zbindowanego jako VBO i skopiowanie danych z tablicy "collors"
+//    glBufferData(gl::GL_ARRAY_BUFFER, 3 * 6 * sizeof(gl::GLfloat), collors, gl::GL_STATIC_DRAW);
+//    // odbindowanie buffora zbindowanego jako VBO (zeby przypadkiem nie narobic sobie klopotow...)
+//    glBindBuffer(gl::GL_ARRAY_BUFFER, 0);
 }
 
 bool Scene::draw(float delta_time)
