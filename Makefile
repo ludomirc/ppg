@@ -182,6 +182,19 @@ OGLSample2_IB_VBO/fast:
 	$(MAKE) -f OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/build.make OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/build
 .PHONY : OGLSample2_IB_VBO/fast
 
+#=============================================================================
+# Target rules for targets named buffor1
+
+# Build rule for target.
+buffor1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 buffor1
+.PHONY : buffor1
+
+# fast build rule for target.
+buffor1/fast:
+	$(MAKE) -f buffor1/CMakeFiles/buffor1.dir/build.make buffor1/CMakeFiles/buffor1.dir/build
+.PHONY : buffor1/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -196,6 +209,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... OGLSample1"
 	@echo "... OGLSample2_IB_VBO"
+	@echo "... buffor1"
 .PHONY : help
 
 

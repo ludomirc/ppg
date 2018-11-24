@@ -79,18 +79,6 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -124,16 +112,28 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/CMakeFiles/progress.marks
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 OGLSample1/all
+	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/CMakeFiles/progress.marks
+	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 buffor1/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 OGLSample1/clean
+	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 buffor1/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,12 +143,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 OGLSample1/preinstall
+	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 buffor1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 OGLSample1/preinstall
+	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 buffor1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -157,19 +157,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-OGLSample1/CMakeFiles/OGLSample1.dir/rule:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 OGLSample1/CMakeFiles/OGLSample1.dir/rule
-.PHONY : OGLSample1/CMakeFiles/OGLSample1.dir/rule
+buffor1/CMakeFiles/buffor1.dir/rule:
+	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 buffor1/CMakeFiles/buffor1.dir/rule
+.PHONY : buffor1/CMakeFiles/buffor1.dir/rule
 
 # Convenience name for target.
-OGLSample1: OGLSample1/CMakeFiles/OGLSample1.dir/rule
+buffor1: buffor1/CMakeFiles/buffor1.dir/rule
 
-.PHONY : OGLSample1
+.PHONY : buffor1
 
 # fast build rule for target.
-OGLSample1/fast:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f OGLSample1/CMakeFiles/OGLSample1.dir/build.make OGLSample1/CMakeFiles/OGLSample1.dir/build
-.PHONY : OGLSample1/fast
+buffor1/fast:
+	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f buffor1/CMakeFiles/buffor1.dir/build.make buffor1/CMakeFiles/buffor1.dir/build
+.PHONY : buffor1/fast
 
 Scene.o: Scene.cpp.o
 
@@ -177,7 +177,7 @@ Scene.o: Scene.cpp.o
 
 # target to build an object file
 Scene.cpp.o:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f OGLSample1/CMakeFiles/OGLSample1.dir/build.make OGLSample1/CMakeFiles/OGLSample1.dir/Scene.cpp.o
+	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f buffor1/CMakeFiles/buffor1.dir/build.make buffor1/CMakeFiles/buffor1.dir/Scene.cpp.o
 .PHONY : Scene.cpp.o
 
 Scene.i: Scene.cpp.i
@@ -186,7 +186,7 @@ Scene.i: Scene.cpp.i
 
 # target to preprocess a source file
 Scene.cpp.i:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f OGLSample1/CMakeFiles/OGLSample1.dir/build.make OGLSample1/CMakeFiles/OGLSample1.dir/Scene.cpp.i
+	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f buffor1/CMakeFiles/buffor1.dir/build.make buffor1/CMakeFiles/buffor1.dir/Scene.cpp.i
 .PHONY : Scene.cpp.i
 
 Scene.s: Scene.cpp.s
@@ -195,7 +195,7 @@ Scene.s: Scene.cpp.s
 
 # target to generate assembly for a file
 Scene.cpp.s:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f OGLSample1/CMakeFiles/OGLSample1.dir/build.make OGLSample1/CMakeFiles/OGLSample1.dir/Scene.cpp.s
+	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f buffor1/CMakeFiles/buffor1.dir/build.make buffor1/CMakeFiles/buffor1.dir/Scene.cpp.s
 .PHONY : Scene.cpp.s
 
 Utilities.o: Utilities.cpp.o
@@ -204,7 +204,7 @@ Utilities.o: Utilities.cpp.o
 
 # target to build an object file
 Utilities.cpp.o:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f OGLSample1/CMakeFiles/OGLSample1.dir/build.make OGLSample1/CMakeFiles/OGLSample1.dir/Utilities.cpp.o
+	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f buffor1/CMakeFiles/buffor1.dir/build.make buffor1/CMakeFiles/buffor1.dir/Utilities.cpp.o
 .PHONY : Utilities.cpp.o
 
 Utilities.i: Utilities.cpp.i
@@ -213,7 +213,7 @@ Utilities.i: Utilities.cpp.i
 
 # target to preprocess a source file
 Utilities.cpp.i:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f OGLSample1/CMakeFiles/OGLSample1.dir/build.make OGLSample1/CMakeFiles/OGLSample1.dir/Utilities.cpp.i
+	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f buffor1/CMakeFiles/buffor1.dir/build.make buffor1/CMakeFiles/buffor1.dir/Utilities.cpp.i
 .PHONY : Utilities.cpp.i
 
 Utilities.s: Utilities.cpp.s
@@ -222,7 +222,7 @@ Utilities.s: Utilities.cpp.s
 
 # target to generate assembly for a file
 Utilities.cpp.s:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f OGLSample1/CMakeFiles/OGLSample1.dir/build.make OGLSample1/CMakeFiles/OGLSample1.dir/Utilities.cpp.s
+	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f buffor1/CMakeFiles/buffor1.dir/build.make buffor1/CMakeFiles/buffor1.dir/Utilities.cpp.s
 .PHONY : Utilities.cpp.s
 
 main.o: main.cpp.o
@@ -231,7 +231,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f OGLSample1/CMakeFiles/OGLSample1.dir/build.make OGLSample1/CMakeFiles/OGLSample1.dir/main.cpp.o
+	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f buffor1/CMakeFiles/buffor1.dir/build.make buffor1/CMakeFiles/buffor1.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -240,7 +240,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f OGLSample1/CMakeFiles/OGLSample1.dir/build.make OGLSample1/CMakeFiles/OGLSample1.dir/main.cpp.i
+	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f buffor1/CMakeFiles/buffor1.dir/build.make buffor1/CMakeFiles/buffor1.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -249,7 +249,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f OGLSample1/CMakeFiles/OGLSample1.dir/build.make OGLSample1/CMakeFiles/OGLSample1.dir/main.cpp.s
+	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f buffor1/CMakeFiles/buffor1.dir/build.make buffor1/CMakeFiles/buffor1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -260,11 +260,11 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... edit_cache"
-	@echo "... OGLSample1"
-	@echo "... install"
 	@echo "... rebuild_cache"
 	@echo "... list_install_components"
 	@echo "... install/local"
+	@echo "... buffor1"
+	@echo "... install"
 	@echo "... Scene.o"
 	@echo "... Scene.i"
 	@echo "... Scene.s"

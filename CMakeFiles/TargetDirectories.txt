@@ -18,3 +18,10 @@
 /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/CMakeFiles/list_install_components.dir
 /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/CMakeFiles/install/local.dir
 /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/CMakeFiles/install.dir
+/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/CMakeFiles/install/strip.dir
+/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/CMakeFiles/edit_cache.dir
+/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/CMakeFiles/rebuild_cache.dir
+/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/CMakeFiles/list_install_components.dir
+/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/CMakeFiles/install/local.dir
+/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/CMakeFiles/buffor1.dir
+/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/CMakeFiles/install.dir
