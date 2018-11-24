@@ -35,9 +35,9 @@ bool Scene::init(void)
 
     // stworzenie tablicy z danymi o wierzcholkach 3x (x, y, z)
     gl::GLfloat vertices[] = {
-		-0.5f, 0.f, 0.f,
-		0.5f, 0.f, 0.f,
-		0.f, 0.5f, 0.f
+		-0.5f, 0.f, 0.f, 0.583f,  0.771f,  0.014f,
+		0.5f, 0.f, 0.f, 0.609f,  0.115f,  0.436f,
+		0.f, 0.5f, 0.f, 0.327f,  0.483f,  0.844f
 	};
 
     // stworzenie tablicy z danymi o indeksach

@@ -5,6 +5,7 @@
 class Scene
 {
     gl::GLuint vbo_handle;
+    gl::GLuint index_buffer_handle;
     gl::GLuint vao_handle;
     gl::GLuint simple_program;
 
