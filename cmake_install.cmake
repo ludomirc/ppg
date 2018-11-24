@@ -45,6 +45,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/cmake_install.cmake")
   include("/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/cmake_install.cmake")
   include("/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/cmake_install.cmake")
+  include("/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/cmake_install.cmake")
 
 endif()
 

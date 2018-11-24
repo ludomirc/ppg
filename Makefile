@@ -234,6 +234,19 @@ uniform1/fast:
 	$(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/build
 .PHONY : uniform1/fast
 
+#=============================================================================
+# Target rules for targets named przeksztalceniaPVM
+
+# Build rule for target.
+przeksztalceniaPVM: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 przeksztalceniaPVM
+.PHONY : przeksztalceniaPVM
+
+# fast build rule for target.
+przeksztalceniaPVM/fast:
+	$(MAKE) -f przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/build.make przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/build
+.PHONY : przeksztalceniaPVM/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -252,6 +265,7 @@ help:
 	@echo "... buffor2"
 	@echo "... buffor3"
 	@echo "... uniform1"
+	@echo "... przeksztalceniaPVM"
 .PHONY : help
 
 

@@ -46,3 +46,10 @@
 /home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/CMakeFiles/list_install_components.dir
 /home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/CMakeFiles/install/local.dir
 /home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/CMakeFiles/install.dir
+/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/CMakeFiles/install/strip.dir
+/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/CMakeFiles/edit_cache.dir
+/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir
+/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/CMakeFiles/rebuild_cache.dir
+/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/CMakeFiles/list_install_components.dir
+/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/CMakeFiles/install/local.dir
+/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/CMakeFiles/install.dir

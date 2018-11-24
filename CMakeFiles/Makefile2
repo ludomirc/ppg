@@ -359,7 +359,7 @@ uniform1/preinstall:
 uniform1/CMakeFiles/uniform1.dir/all:
 	$(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/depend
 	$(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles --progress-num=21,22,23,24 "Built target uniform1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles --progress-num=25,26,27,28 "Built target uniform1"
 .PHONY : uniform1/CMakeFiles/uniform1.dir/all
 
 # Include target in all.
@@ -386,6 +386,61 @@ uniform1/CMakeFiles/uniform1.dir/clean:
 
 # clean rule for target.
 clean: uniform1/CMakeFiles/uniform1.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory przeksztalceniaPVM
+
+# Convenience name for "all" pass in the directory.
+przeksztalceniaPVM/all: przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/all
+
+.PHONY : przeksztalceniaPVM/all
+
+# Convenience name for "clean" pass in the directory.
+przeksztalceniaPVM/clean: przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/clean
+
+.PHONY : przeksztalceniaPVM/clean
+
+# Convenience name for "preinstall" pass in the directory.
+przeksztalceniaPVM/preinstall:
+
+.PHONY : przeksztalceniaPVM/preinstall
+
+#=============================================================================
+# Target rules for target przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir
+
+# All Build rule for target.
+przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/all:
+	$(MAKE) -f przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/build.make przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/depend
+	$(MAKE) -f przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/build.make przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles --progress-num=21,22,23,24 "Built target przeksztalceniaPVM"
+.PHONY : przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/all
+
+# Include target in all.
+all: przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles 0
+.PHONY : przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/rule
+
+# Convenience name for target.
+przeksztalceniaPVM: przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/rule
+
+.PHONY : przeksztalceniaPVM
+
+# clean rule for target.
+przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/clean:
+	$(MAKE) -f przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/build.make przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/clean
+.PHONY : przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/clean
+
+# clean rule for target.
+clean: przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/clean
 
 .PHONY : clean
 

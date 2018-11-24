@@ -16,6 +16,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "buffor1/CMakeLists.txt"
   "buffor2/CMakeLists.txt"
   "buffor3/CMakeLists.txt"
+  "przeksztalceniaPVM/CMakeLists.txt"
   "uniform1/CMakeLists.txt"
   "/home/benek/workspace/g1/Grafika-master/cmake/Modules/Findglbinding.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCInformation.cmake"
@@ -51,6 +52,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "buffor2/CMakeFiles/CMakeDirectoryInformation.cmake"
   "buffor3/CMakeFiles/CMakeDirectoryInformation.cmake"
   "uniform1/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "przeksztalceniaPVM/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -61,4 +63,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "buffor2/CMakeFiles/buffor2.dir/DependInfo.cmake"
   "buffor3/CMakeFiles/buffor3.dir/DependInfo.cmake"
   "uniform1/CMakeFiles/uniform1.dir/DependInfo.cmake"
+  "przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/DependInfo.cmake"
   )

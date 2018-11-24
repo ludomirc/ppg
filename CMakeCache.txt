@@ -218,6 +218,12 @@ buffor3_BINARY_DIR:STATIC=/home/benek/workspace/g1/Grafika-master/OGLSamples/buf
 buffor3_SOURCE_DIR:STATIC=/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3
 
 //Value Computed by CMake
+przeksztalceniaPVM_BINARY_DIR:STATIC=/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM
+
+//Value Computed by CMake
+przeksztalceniaPVM_SOURCE_DIR:STATIC=/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM
+
+//Value Computed by CMake
 uniform1_BINARY_DIR:STATIC=/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1
 
 //Value Computed by CMake
@@ -324,7 +330,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
