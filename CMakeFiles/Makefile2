@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/benek/workspace/g1/Grafika-master/OGLSamples
+CMAKE_SOURCE_DIR = /home/benek/workspace/Grafika-master/OGLSamples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/benek/workspace/g1/Grafika-master/OGLSamples
+CMAKE_BINARY_DIR = /home/benek/workspace/Grafika-master/OGLSamples
 
 #=============================================================================
 # Directory level rules for directory OGLSample1
@@ -84,7 +84,7 @@ OGLSample1/preinstall:
 OGLSample1/CMakeFiles/OGLSample1.dir/all:
 	$(MAKE) -f OGLSample1/CMakeFiles/OGLSample1.dir/build.make OGLSample1/CMakeFiles/OGLSample1.dir/depend
 	$(MAKE) -f OGLSample1/CMakeFiles/OGLSample1.dir/build.make OGLSample1/CMakeFiles/OGLSample1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles --progress-num=1,2,3,4 "Built target OGLSample1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles --progress-num=1,2,3,4 "Built target OGLSample1"
 .PHONY : OGLSample1/CMakeFiles/OGLSample1.dir/all
 
 # Include target in all.
@@ -94,9 +94,9 @@ all: OGLSample1/CMakeFiles/OGLSample1.dir/all
 
 # Build rule for subdir invocation for target.
 OGLSample1/CMakeFiles/OGLSample1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 OGLSample1/CMakeFiles/OGLSample1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles 0
 .PHONY : OGLSample1/CMakeFiles/OGLSample1.dir/rule
 
 # Convenience name for target.
@@ -139,7 +139,7 @@ OGLSample2_IB_VBO/preinstall:
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/all:
 	$(MAKE) -f OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/build.make OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/depend
 	$(MAKE) -f OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/build.make OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles --progress-num=5,6,7,8 "Built target OGLSample2_IB_VBO"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles --progress-num=5,6,7,8 "Built target OGLSample2_IB_VBO"
 .PHONY : OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/all
 
 # Include target in all.
@@ -149,9 +149,9 @@ all: OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/all
 
 # Build rule for subdir invocation for target.
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles 0
 .PHONY : OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/rule
 
 # Convenience name for target.
@@ -194,7 +194,7 @@ buffor1/preinstall:
 buffor1/CMakeFiles/buffor1.dir/all:
 	$(MAKE) -f buffor1/CMakeFiles/buffor1.dir/build.make buffor1/CMakeFiles/buffor1.dir/depend
 	$(MAKE) -f buffor1/CMakeFiles/buffor1.dir/build.make buffor1/CMakeFiles/buffor1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles --progress-num=9,10,11,12 "Built target buffor1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles --progress-num=9,10,11,12 "Built target buffor1"
 .PHONY : buffor1/CMakeFiles/buffor1.dir/all
 
 # Include target in all.
@@ -204,9 +204,9 @@ all: buffor1/CMakeFiles/buffor1.dir/all
 
 # Build rule for subdir invocation for target.
 buffor1/CMakeFiles/buffor1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 buffor1/CMakeFiles/buffor1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles 0
 .PHONY : buffor1/CMakeFiles/buffor1.dir/rule
 
 # Convenience name for target.
@@ -249,7 +249,7 @@ buffor2/preinstall:
 buffor2/CMakeFiles/buffor2.dir/all:
 	$(MAKE) -f buffor2/CMakeFiles/buffor2.dir/build.make buffor2/CMakeFiles/buffor2.dir/depend
 	$(MAKE) -f buffor2/CMakeFiles/buffor2.dir/build.make buffor2/CMakeFiles/buffor2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles --progress-num=13,14,15,16 "Built target buffor2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles --progress-num=13,14,15,16 "Built target buffor2"
 .PHONY : buffor2/CMakeFiles/buffor2.dir/all
 
 # Include target in all.
@@ -259,9 +259,9 @@ all: buffor2/CMakeFiles/buffor2.dir/all
 
 # Build rule for subdir invocation for target.
 buffor2/CMakeFiles/buffor2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 buffor2/CMakeFiles/buffor2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles 0
 .PHONY : buffor2/CMakeFiles/buffor2.dir/rule
 
 # Convenience name for target.
@@ -304,7 +304,7 @@ buffor3/preinstall:
 buffor3/CMakeFiles/buffor3.dir/all:
 	$(MAKE) -f buffor3/CMakeFiles/buffor3.dir/build.make buffor3/CMakeFiles/buffor3.dir/depend
 	$(MAKE) -f buffor3/CMakeFiles/buffor3.dir/build.make buffor3/CMakeFiles/buffor3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles --progress-num=17,18,19,20 "Built target buffor3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles --progress-num=17,18,19,20 "Built target buffor3"
 .PHONY : buffor3/CMakeFiles/buffor3.dir/all
 
 # Include target in all.
@@ -314,9 +314,9 @@ all: buffor3/CMakeFiles/buffor3.dir/all
 
 # Build rule for subdir invocation for target.
 buffor3/CMakeFiles/buffor3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 buffor3/CMakeFiles/buffor3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles 0
 .PHONY : buffor3/CMakeFiles/buffor3.dir/rule
 
 # Convenience name for target.
@@ -359,7 +359,7 @@ uniform1/preinstall:
 uniform1/CMakeFiles/uniform1.dir/all:
 	$(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/depend
 	$(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles --progress-num=25,26,27,28 "Built target uniform1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles --progress-num=25,26,27,28 "Built target uniform1"
 .PHONY : uniform1/CMakeFiles/uniform1.dir/all
 
 # Include target in all.
@@ -369,9 +369,9 @@ all: uniform1/CMakeFiles/uniform1.dir/all
 
 # Build rule for subdir invocation for target.
 uniform1/CMakeFiles/uniform1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 uniform1/CMakeFiles/uniform1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles 0
 .PHONY : uniform1/CMakeFiles/uniform1.dir/rule
 
 # Convenience name for target.
@@ -414,7 +414,7 @@ przeksztalceniaPVM/preinstall:
 przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/all:
 	$(MAKE) -f przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/build.make przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/depend
 	$(MAKE) -f przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/build.make przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles --progress-num=21,22,23,24 "Built target przeksztalceniaPVM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles --progress-num=21,22,23,24 "Built target przeksztalceniaPVM"
 .PHONY : przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/all
 
 # Include target in all.
@@ -424,9 +424,9 @@ all: przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/all
 
 # Build rule for subdir invocation for target.
 przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles 0
 .PHONY : przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/rule
 
 # Convenience name for target.

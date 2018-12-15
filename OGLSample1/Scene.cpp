@@ -16,7 +16,7 @@ bool Scene::init(void)
 #if WIN32
 	if (auto create_program_result = createProgram("../../../../OGL/Shaders/very_simple_vs.glsl", "../../../../OGL/Shaders/very_simple_fs.glsl"))
 #else
-	if (auto create_program_result = createProgram("../../Shaders/very_simple_vs.glsl", "../../Shaders/very_simple_fs.glsl"))
+	if (auto create_program_result = createProgram("./Shaders/very_simple_vs.glsl", "./Shaders/very_simple_fs.glsl"))
 #endif
     {
         simple_program = create_program_result.value();

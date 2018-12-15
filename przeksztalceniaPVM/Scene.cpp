@@ -25,10 +25,7 @@ bool Scene::init(void)
         std::cerr << "Error - can't create program..." << std::endl;
         return false;
     }
-    auto color_uniform_index = gl::glGetUniformBlockIndex(simple_program, "Color");
-    if(color_uniform_index == -1)  {
-        std::cerr<<"Uniform Color not found\n";
-    }
+
     auto modelViewProjection = gl::glGetUniformBlockIndex(simple_program, "modelViewProjection");
     if(modelViewProjection == -1)  {
         std::cerr<<"modelViewProjection\n";
@@ -39,9 +36,7 @@ bool Scene::init(void)
     // ustawienie programu, ktory bedzie uzywany podczas rysowania
     gl::glUseProgram(simple_program);
     gl::glEnable(gl::GL_DEPTH_TEST);
-    //gl::glEnable(gl::GL_CULL_FACE);
-    //gl::glFrontFace(gl::GL_CCW);
-    //gl::glCullFace(gl::GL_BACK);
+
    // stworzenie tablicy z danymi o wierzcholkach 3x (x, y, z)
     gl::GLfloat vertices[] = {
             -0.5,-0.5,0.0,
@@ -96,17 +91,7 @@ bool Scene::init(void)
     glBindBuffer(gl::GL_ARRAY_BUFFER, 0);
 
 
-    //uniform
-    gl::GLuint ubo_handle(0u);
-    gl::glGenBuffers(1,&ubo_handle);
-    gl::glBindBuffer(gl::GL_UNIFORM_BUFFER, ubo_handle);
-    gl::GLfloat intensity = 0.25;
-    gl::glBufferData(gl::GL_UNIFORM_BUFFER,sizeof(float), &intensity,gl::GL_STATIC_DRAW);
-    gl::glBindBuffer(gl::GL_UNIFORM_BUFFER, 0);
-    gl::glBindBufferBase(gl::GL_UNIFORM_BUFFER, color_uniform_index, ubo_handle);
-
-
-    //projection matrix
+    //projekcja matrix
     glm::mat4 model = glm::mat4(1.f);
     glm::mat4 view = glm::lookAt(
             glm::vec3(0.5f, 0.5f, 1.0f),
@@ -119,7 +104,7 @@ bool Scene::init(void)
     gl::GLuint mvp_handle(0u);
     gl::glGenBuffers(1,&mvp_handle);
     gl::glBindBuffer(gl::GL_UNIFORM_BUFFER, mvp_handle);
-    gl::glBufferData(gl::GL_UNIFORM_BUFFER, sizeof(glm::mat4), &mvp,gl::GL_STATIC_DRAW);
+    gl::glBufferData(gl::GL_UNIFORM_BUFFER, 16 * sizeof(float), &mvp[0],gl::GL_STATIC_DRAW);
     gl::glBindBuffer(gl::GL_UNIFORM_BUFFER, 0);
     gl::glBindBufferBase(gl::GL_UNIFORM_BUFFER, modelViewProjection, mvp_handle);
 

@@ -36,10 +36,10 @@ OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.o
  ../Libs/glbinding/include/glbinding/glbinding_export.h
  ../Libs/glbinding/include/glbinding/glbinding_features.h
  ../Libs/glbinding/include/glbinding/nogl.h
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.cpp
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.h
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.h
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/libs.h
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.cpp
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.h
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.h
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/libs.h
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.o
  ../Libs/glbinding/include/glbinding/AbstractFunction.h
  ../Libs/glbinding/include/glbinding/AbstractState.h
@@ -75,9 +75,9 @@ OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.o
  ../Libs/glbinding/include/glbinding/glbinding_export.h
  ../Libs/glbinding/include/glbinding/glbinding_features.h
  ../Libs/glbinding/include/glbinding/nogl.h
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.cpp
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.h
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/libs.h
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.cpp
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.h
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/libs.h
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.o
  ../Libs/glbinding/include/glbinding/AbstractFunction.h
  ../Libs/glbinding/include/glbinding/AbstractState.h
@@ -113,6 +113,6 @@ OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.o
  ../Libs/glbinding/include/glbinding/glbinding_export.h
  ../Libs/glbinding/include/glbinding/glbinding_features.h
  ../Libs/glbinding/include/glbinding/nogl.h
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.h
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/libs.h
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/main.cpp
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.h
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/libs.h
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/main.cpp

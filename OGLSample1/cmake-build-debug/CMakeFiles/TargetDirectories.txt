@@ -1,0 +1,7 @@
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/CMakeFiles/install/local.dir
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/CMakeFiles/install.dir
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/CMakeFiles/OGLSample1.dir
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/CMakeFiles/list_install_components.dir

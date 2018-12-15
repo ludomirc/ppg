@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/benek/workspace/g1/Grafika-master/OGLSamples
+CMAKE_SOURCE_DIR = /home/benek/workspace/Grafika-master/OGLSamples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/benek/workspace/g1/Grafika-master/OGLSamples
+CMAKE_BINARY_DIR = /home/benek/workspace/Grafika-master/OGLSamples
 
 # Include any dependencies generated for this target.
 include buffor3/CMakeFiles/buffor3.dir/depend.make
@@ -59,16 +59,16 @@ include buffor3/CMakeFiles/buffor3.dir/flags.make
 
 buffor3/CMakeFiles/buffor3.dir/Scene.cpp.o: buffor3/CMakeFiles/buffor3.dir/flags.make
 buffor3/CMakeFiles/buffor3.dir/Scene.cpp.o: buffor3/Scene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object buffor3/CMakeFiles/buffor3.dir/Scene.cpp.o"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/buffor3.dir/Scene.cpp.o -c /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object buffor3/CMakeFiles/buffor3.dir/Scene.cpp.o"
+	cd /home/benek/workspace/Grafika-master/OGLSamples/buffor3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/buffor3.dir/Scene.cpp.o -c /home/benek/workspace/Grafika-master/OGLSamples/buffor3/Scene.cpp
 
 buffor3/CMakeFiles/buffor3.dir/Scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/buffor3.dir/Scene.cpp.i"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Scene.cpp > CMakeFiles/buffor3.dir/Scene.cpp.i
+	cd /home/benek/workspace/Grafika-master/OGLSamples/buffor3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benek/workspace/Grafika-master/OGLSamples/buffor3/Scene.cpp > CMakeFiles/buffor3.dir/Scene.cpp.i
 
 buffor3/CMakeFiles/buffor3.dir/Scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/buffor3.dir/Scene.cpp.s"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Scene.cpp -o CMakeFiles/buffor3.dir/Scene.cpp.s
+	cd /home/benek/workspace/Grafika-master/OGLSamples/buffor3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benek/workspace/Grafika-master/OGLSamples/buffor3/Scene.cpp -o CMakeFiles/buffor3.dir/Scene.cpp.s
 
 buffor3/CMakeFiles/buffor3.dir/Scene.cpp.o.requires:
 
@@ -83,16 +83,16 @@ buffor3/CMakeFiles/buffor3.dir/Scene.cpp.o.provides.build: buffor3/CMakeFiles/bu
 
 buffor3/CMakeFiles/buffor3.dir/Utilities.cpp.o: buffor3/CMakeFiles/buffor3.dir/flags.make
 buffor3/CMakeFiles/buffor3.dir/Utilities.cpp.o: buffor3/Utilities.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object buffor3/CMakeFiles/buffor3.dir/Utilities.cpp.o"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/buffor3.dir/Utilities.cpp.o -c /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Utilities.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object buffor3/CMakeFiles/buffor3.dir/Utilities.cpp.o"
+	cd /home/benek/workspace/Grafika-master/OGLSamples/buffor3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/buffor3.dir/Utilities.cpp.o -c /home/benek/workspace/Grafika-master/OGLSamples/buffor3/Utilities.cpp
 
 buffor3/CMakeFiles/buffor3.dir/Utilities.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/buffor3.dir/Utilities.cpp.i"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Utilities.cpp > CMakeFiles/buffor3.dir/Utilities.cpp.i
+	cd /home/benek/workspace/Grafika-master/OGLSamples/buffor3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benek/workspace/Grafika-master/OGLSamples/buffor3/Utilities.cpp > CMakeFiles/buffor3.dir/Utilities.cpp.i
 
 buffor3/CMakeFiles/buffor3.dir/Utilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/buffor3.dir/Utilities.cpp.s"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Utilities.cpp -o CMakeFiles/buffor3.dir/Utilities.cpp.s
+	cd /home/benek/workspace/Grafika-master/OGLSamples/buffor3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benek/workspace/Grafika-master/OGLSamples/buffor3/Utilities.cpp -o CMakeFiles/buffor3.dir/Utilities.cpp.s
 
 buffor3/CMakeFiles/buffor3.dir/Utilities.cpp.o.requires:
 
@@ -107,16 +107,16 @@ buffor3/CMakeFiles/buffor3.dir/Utilities.cpp.o.provides.build: buffor3/CMakeFile
 
 buffor3/CMakeFiles/buffor3.dir/main.cpp.o: buffor3/CMakeFiles/buffor3.dir/flags.make
 buffor3/CMakeFiles/buffor3.dir/main.cpp.o: buffor3/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object buffor3/CMakeFiles/buffor3.dir/main.cpp.o"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/buffor3.dir/main.cpp.o -c /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object buffor3/CMakeFiles/buffor3.dir/main.cpp.o"
+	cd /home/benek/workspace/Grafika-master/OGLSamples/buffor3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/buffor3.dir/main.cpp.o -c /home/benek/workspace/Grafika-master/OGLSamples/buffor3/main.cpp
 
 buffor3/CMakeFiles/buffor3.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/buffor3.dir/main.cpp.i"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/main.cpp > CMakeFiles/buffor3.dir/main.cpp.i
+	cd /home/benek/workspace/Grafika-master/OGLSamples/buffor3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benek/workspace/Grafika-master/OGLSamples/buffor3/main.cpp > CMakeFiles/buffor3.dir/main.cpp.i
 
 buffor3/CMakeFiles/buffor3.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/buffor3.dir/main.cpp.s"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/main.cpp -o CMakeFiles/buffor3.dir/main.cpp.s
+	cd /home/benek/workspace/Grafika-master/OGLSamples/buffor3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benek/workspace/Grafika-master/OGLSamples/buffor3/main.cpp -o CMakeFiles/buffor3.dir/main.cpp.s
 
 buffor3/CMakeFiles/buffor3.dir/main.cpp.o.requires:
 
@@ -145,8 +145,8 @@ buffor3/buffor3: buffor3/CMakeFiles/buffor3.dir/build.make
 buffor3/buffor3: ../Libs/glbinding/lib/Linux/linux64/libglbinding.a
 buffor3/buffor3: ../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a
 buffor3/buffor3: buffor3/CMakeFiles/buffor3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable buffor3"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/buffor3.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable buffor3"
+	cd /home/benek/workspace/Grafika-master/OGLSamples/buffor3 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/buffor3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 buffor3/CMakeFiles/buffor3.dir/build: buffor3/buffor3
@@ -160,10 +160,10 @@ buffor3/CMakeFiles/buffor3.dir/requires: buffor3/CMakeFiles/buffor3.dir/main.cpp
 .PHONY : buffor3/CMakeFiles/buffor3.dir/requires
 
 buffor3/CMakeFiles/buffor3.dir/clean:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3 && $(CMAKE_COMMAND) -P CMakeFiles/buffor3.dir/cmake_clean.cmake
+	cd /home/benek/workspace/Grafika-master/OGLSamples/buffor3 && $(CMAKE_COMMAND) -P CMakeFiles/buffor3.dir/cmake_clean.cmake
 .PHONY : buffor3/CMakeFiles/buffor3.dir/clean
 
 buffor3/CMakeFiles/buffor3.dir/depend:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/benek/workspace/g1/Grafika-master/OGLSamples /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3 /home/benek/workspace/g1/Grafika-master/OGLSamples /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3 /home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/CMakeFiles/buffor3.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/benek/workspace/Grafika-master/OGLSamples /home/benek/workspace/Grafika-master/OGLSamples/buffor3 /home/benek/workspace/Grafika-master/OGLSamples /home/benek/workspace/Grafika-master/OGLSamples/buffor3 /home/benek/workspace/Grafika-master/OGLSamples/buffor3/CMakeFiles/buffor3.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : buffor3/CMakeFiles/buffor3.dir/depend
 

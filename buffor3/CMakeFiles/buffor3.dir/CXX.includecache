@@ -308,25 +308,25 @@ glbinding/glbinding_export.h
 
 ../Libs/glbinding/include/glbinding/nogl.h
 
-/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Scene.cpp
+/home/benek/workspace/Grafika-master/OGLSamples/buffor3/Scene.cpp
 Scene.h
-/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Scene.h
+/home/benek/workspace/Grafika-master/OGLSamples/buffor3/Scene.h
 Utilities.h
-/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Utilities.h
+/home/benek/workspace/Grafika-master/OGLSamples/buffor3/Utilities.h
 
-/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Scene.h
+/home/benek/workspace/Grafika-master/OGLSamples/buffor3/Scene.h
 libs.h
-/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/libs.h
+/home/benek/workspace/Grafika-master/OGLSamples/buffor3/libs.h
 
-/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Utilities.cpp
+/home/benek/workspace/Grafika-master/OGLSamples/buffor3/Utilities.cpp
 Utilities.h
-/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Utilities.h
+/home/benek/workspace/Grafika-master/OGLSamples/buffor3/Utilities.h
 
-/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Utilities.h
+/home/benek/workspace/Grafika-master/OGLSamples/buffor3/Utilities.h
 libs.h
-/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/libs.h
+/home/benek/workspace/Grafika-master/OGLSamples/buffor3/libs.h
 
-/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/libs.h
+/home/benek/workspace/Grafika-master/OGLSamples/buffor3/libs.h
 iostream
 -
 string
@@ -354,9 +354,9 @@ glbinding/glbinding.h
 GLFW/glfw3.h
 -
 
-/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/main.cpp
+/home/benek/workspace/Grafika-master/OGLSamples/buffor3/main.cpp
 libs.h
-/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/libs.h
+/home/benek/workspace/Grafika-master/OGLSamples/buffor3/libs.h
 Scene.h
-/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Scene.h
+/home/benek/workspace/Grafika-master/OGLSamples/buffor3/Scene.h
 

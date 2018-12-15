@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/benek/workspace/g1/Grafika-master/OGLSamples
+CMAKE_SOURCE_DIR = /home/benek/workspace/Grafika-master/OGLSamples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/benek/workspace/g1/Grafika-master/OGLSamples
+CMAKE_BINARY_DIR = /home/benek/workspace/Grafika-master/OGLSamples
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles /home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/CMakeFiles/progress.marks
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 uniform1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles 0
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles /home/benek/workspace/Grafika-master/OGLSamples/uniform1/CMakeFiles/progress.marks
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 uniform1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 uniform1/clean
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 uniform1/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 uniform1/preinstall
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 uniform1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 uniform1/preinstall
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 uniform1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 uniform1/CMakeFiles/uniform1.dir/rule:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 uniform1/CMakeFiles/uniform1.dir/rule
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(MAKE) -f CMakeFiles/Makefile2 uniform1/CMakeFiles/uniform1.dir/rule
 .PHONY : uniform1/CMakeFiles/uniform1.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ uniform1: uniform1/CMakeFiles/uniform1.dir/rule
 
 # fast build rule for target.
 uniform1/fast:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/build
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/build
 .PHONY : uniform1/fast
 
 Scene.o: Scene.cpp.o
@@ -177,7 +177,7 @@ Scene.o: Scene.cpp.o
 
 # target to build an object file
 Scene.cpp.o:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/Scene.cpp.o
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/Scene.cpp.o
 .PHONY : Scene.cpp.o
 
 Scene.i: Scene.cpp.i
@@ -186,7 +186,7 @@ Scene.i: Scene.cpp.i
 
 # target to preprocess a source file
 Scene.cpp.i:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/Scene.cpp.i
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/Scene.cpp.i
 .PHONY : Scene.cpp.i
 
 Scene.s: Scene.cpp.s
@@ -195,7 +195,7 @@ Scene.s: Scene.cpp.s
 
 # target to generate assembly for a file
 Scene.cpp.s:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/Scene.cpp.s
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/Scene.cpp.s
 .PHONY : Scene.cpp.s
 
 Utilities.o: Utilities.cpp.o
@@ -204,7 +204,7 @@ Utilities.o: Utilities.cpp.o
 
 # target to build an object file
 Utilities.cpp.o:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/Utilities.cpp.o
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/Utilities.cpp.o
 .PHONY : Utilities.cpp.o
 
 Utilities.i: Utilities.cpp.i
@@ -213,7 +213,7 @@ Utilities.i: Utilities.cpp.i
 
 # target to preprocess a source file
 Utilities.cpp.i:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/Utilities.cpp.i
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/Utilities.cpp.i
 .PHONY : Utilities.cpp.i
 
 Utilities.s: Utilities.cpp.s
@@ -222,7 +222,7 @@ Utilities.s: Utilities.cpp.s
 
 # target to generate assembly for a file
 Utilities.cpp.s:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/Utilities.cpp.s
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/Utilities.cpp.s
 .PHONY : Utilities.cpp.s
 
 main.o: main.cpp.o
@@ -231,7 +231,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/main.cpp.o
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -240,7 +240,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/main.cpp.i
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -249,7 +249,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/main.cpp.s
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(MAKE) -f uniform1/CMakeFiles/uniform1.dir/build.make uniform1/CMakeFiles/uniform1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

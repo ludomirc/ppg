@@ -1,1 +1,0 @@
-/usr/bin/c++   --std=c++17 -g   -rdynamic CMakeFiles/buffor3.dir/Scene.cpp.o CMakeFiles/buffor3.dir/Utilities.cpp.o CMakeFiles/buffor3.dir/main.cpp.o  -o buffor3 ../../Libs/glbinding/lib/Linux/linux64/libglbinding.a ../../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a --std=c++17 -lGL -lglfw -lpthread 

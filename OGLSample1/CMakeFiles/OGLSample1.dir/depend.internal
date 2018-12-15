@@ -36,10 +36,10 @@ OGLSample1/CMakeFiles/OGLSample1.dir/Scene.cpp.o
  ../Libs/glbinding/include/glbinding/glbinding_export.h
  ../Libs/glbinding/include/glbinding/glbinding_features.h
  ../Libs/glbinding/include/glbinding/nogl.h
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Scene.cpp
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Scene.h
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Utilities.h
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/libs.h
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/Scene.cpp
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/Scene.h
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/Utilities.h
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/libs.h
 OGLSample1/CMakeFiles/OGLSample1.dir/Utilities.cpp.o
  ../Libs/glbinding/include/glbinding/AbstractFunction.h
  ../Libs/glbinding/include/glbinding/AbstractState.h
@@ -75,9 +75,9 @@ OGLSample1/CMakeFiles/OGLSample1.dir/Utilities.cpp.o
  ../Libs/glbinding/include/glbinding/glbinding_export.h
  ../Libs/glbinding/include/glbinding/glbinding_features.h
  ../Libs/glbinding/include/glbinding/nogl.h
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Utilities.cpp
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Utilities.h
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/libs.h
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/Utilities.cpp
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/Utilities.h
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/libs.h
 OGLSample1/CMakeFiles/OGLSample1.dir/main.cpp.o
  ../Libs/glbinding/include/glbinding/AbstractFunction.h
  ../Libs/glbinding/include/glbinding/AbstractState.h
@@ -113,6 +113,6 @@ OGLSample1/CMakeFiles/OGLSample1.dir/main.cpp.o
  ../Libs/glbinding/include/glbinding/glbinding_export.h
  ../Libs/glbinding/include/glbinding/glbinding_features.h
  ../Libs/glbinding/include/glbinding/nogl.h
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Scene.h
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/libs.h
- /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/main.cpp
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/Scene.h
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/libs.h
+ /home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/main.cpp

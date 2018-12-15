@@ -2,10 +2,13 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
+      <config projectName="OGLSamples" targetName="przeksztalceniaPVM" />
       <config projectName="OGLSamples" targetName="buffor1" />
       <config projectName="OGLSamples" targetName="buffor2" />
       <config projectName="OGLSamples" targetName="OGLSample2_IB_VBO" />
       <config projectName="OGLSamples" targetName="OGLSample1" />
+      <config projectName="OGLSamples" targetName="uniform1" />
+      <config projectName="OGLSamples" targetName="buffor3" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -15,7 +18,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e778a70d-09b6-4ca6-b2ab-7f318a021fd9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample1/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/OGLSample1/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample1/CMakeFiles/OGLSample1.dir/Scene.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample1/CMakeFiles/OGLSample1.dir/Utilities.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample1/CMakeFiles/OGLSample1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/OGLSample1/CMakeFiles/OGLSample1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample1/CMakeFiles/OGLSample1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/OGLSample1/CMakeFiles/OGLSample1.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample1/CMakeFiles/OGLSample1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/OGLSample1/CMakeFiles/OGLSample1.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample1/CMakeFiles/OGLSample1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/OGLSample1/CMakeFiles/OGLSample1.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample1/CMakeFiles/OGLSample1.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample1/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/OGLSample1/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample1/OGLSample1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample2_IB_VBO/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/OGLSample2_IB_VBO/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample2_IB_VBO/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/OGLSample2_IB_VBO/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGLSample2_IB_VBO/OGLSample2_IB_VBO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffor1/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/buffor1/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffor1/buffor1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffor2/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/buffor2/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffor2/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/buffor2/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffor3/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/buffor3/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffor3/CMakeFiles/buffor3.dir/Scene.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffor3/CMakeFiles/buffor3.dir/Utilities.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffor3/CMakeFiles/buffor3.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/buffor3/CMakeFiles/buffor3.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffor3/CMakeFiles/buffor3.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/buffor3/CMakeFiles/buffor3.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffor3/CMakeFiles/buffor3.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/buffor3/CMakeFiles/buffor3.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffor3/CMakeFiles/buffor3.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/buffor3/CMakeFiles/buffor3.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffor3/CMakeFiles/buffor3.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffor3/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/buffor3/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buffor3/buffor3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/Scene.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/Scene.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/przeksztalceniaPVM/Scene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/przeksztalceniaPVM/Scene.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/przeksztalceniaPVM/przeksztalceniaPVM" beforeDir="false" afterPath="$PROJECT_DIR$/przeksztalceniaPVM/przeksztalceniaPVM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniform1/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/uniform1/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniform1/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/uniform1/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniform1/libs.h" beforeDir="false" afterPath="$PROJECT_DIR$/uniform1/libs.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -23,6 +73,9 @@
     <ignored path="$PROJECT_DIR$/OGLSample2_IB_VBO/CMakeFiles/" />
     <ignored path="$PROJECT_DIR$/buffor1/CMakeFiles/" />
     <ignored path="$PROJECT_DIR$/buffor2/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/przeksztalceniaPVM/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/uniform1/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/buffor3/CMakeFiles/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,75 +97,47 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="1" />
-          <entry key="cpp" value="7" />
-          <entry key="glsl" value="4" />
-          <entry key="h" value="7" />
-          <entry key="txt" value="9" />
+          <entry key="cpp" value="9" />
+          <entry key="glsl" value="8" />
+          <entry key="h" value="11" />
+          <entry key="hpp" value="1" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="9" />
-          <entry key="GLSL shader file" value="4" />
-          <entry key="ObjectiveC" value="14" />
+          <entry key="CMakeCache.txt" value="1" />
+          <entry key="CMakeLists.txt" value="11" />
+          <entry key="GLSL shader file" value="8" />
+          <entry key="ObjectiveC" value="21" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="456" />
-          <entry key="glsl" value="82" />
-          <entry key="h" value="9" />
-          <entry key="txt" value="182" />
+          <entry key="cpp" value="644" />
+          <entry key="glsl" value="176" />
+          <entry key="h" value="12" />
+          <entry key="txt" value="297" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="14" />
-          <entry key="GLSL shader file" value="82" />
-          <entry key="ObjectiveC" value="465" />
-          <entry key="PLAIN_TEXT" value="168" />
+          <entry key="CMakeLists.txt" value="15" />
+          <entry key="GLSL shader file" value="176" />
+          <entry key="ObjectiveC" value="656" />
+          <entry key="PLAIN_TEXT" value="282" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buffor3/Scene.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/uniform1/CMakeLists.txt">
+        <entry file="file://$PROJECT_DIR$/przeksztalceniaPVM/Scene.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buffor2/Scene.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="106" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="285">
+              <caret line="106" column="61" selection-start-line="106" selection-start-column="61" selection-end-line="106" selection-end-column="61" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -121,12 +146,47 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buffor3/Scene.h">
+        <entry file="file://$PROJECT_DIR$/uniform1/libs.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="258">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding>
+                <element signature="e#58#77#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/przeksztalceniaPVM/libs.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="21" selection-start-line="21" selection-end-line="24" selection-end-column="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/przeksztalceniaPVM/shader/very_simple_vs.glsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/przeksztalceniaPVM/shader/very_simple_fs.glsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/przeksztalceniaPVM/Scene.h">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -150,6 +210,7 @@
       <find>-0.5,-0.5,0.0</find>
       <find>vao_handle</find>
       <find>6</find>
+      <find>color_uniform_index</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/OGLSample2_IB_VBO</dir>
@@ -164,16 +225,23 @@
         <option value="$PROJECT_DIR$/buffor1/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/../../../Grafika-master/Shaders/very_simple_vs.glsl" />
         <option value="$PROJECT_DIR$/../../../Grafika-master/Shaders/very_simple_fs.glsl" />
-        <option value="$PROJECT_DIR$/../Shaders/very_simple_fs.glsl" />
-        <option value="$PROJECT_DIR$/../Shaders/very_simple_vs.glsl" />
         <option value="$PROJECT_DIR$/buffor1/Scene.cpp" />
         <option value="$PROJECT_DIR$/buffor2/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/buffor2/Scene.h" />
         <option value="$PROJECT_DIR$/buffor3/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/buffor2/Scene.cpp" />
         <option value="$PROJECT_DIR$/buffor3/Scene.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/uniform1/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/../Shaders/very_simple_vs.glsl" />
+        <option value="$PROJECT_DIR$/../Shaders/very_simple_fs.glsl" />
+        <option value="$PROJECT_DIR$/uniform1/Scene.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/przeksztalceniaPVM/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/uniform1/libs.h" />
+        <option value="$PROJECT_DIR$/przeksztalceniaPVM/libs.h" />
+        <option value="$PROJECT_DIR$/przeksztalceniaPVM/shader/very_simple_fs.glsl" />
+        <option value="$PROJECT_DIR$/przeksztalceniaPVM/shader/very_simple_vs.glsl" />
+        <option value="$PROJECT_DIR$/przeksztalceniaPVM/Scene.cpp" />
       </list>
     </option>
   </component>
@@ -183,10 +251,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="164" />
-    <option name="y" value="245" />
-    <option name="width" value="1143" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="392" />
+    <option name="y" value="130" />
+    <option name="width" value="1133" />
     <option name="height" value="655" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -205,7 +273,17 @@
             <path>
               <item name="OGLSamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="OGLSamples" type="462c0819:PsiDirectoryNode" />
-              <item name="uniform1" type="462c0819:PsiDirectoryNode" />
+              <item name="przeksztalceniaPVM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OGLSamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OGLSamples" type="462c0819:PsiDirectoryNode" />
+              <item name="przeksztalceniaPVM" type="462c0819:PsiDirectoryNode" />
+              <item name="shader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OGLSamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -264,12 +342,30 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="buffor3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OGLSamples" TARGET_NAME="buffor3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OGLSamples" RUN_TARGET_NAME="buffor3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="przeksztalceniaPVM" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OGLSamples" TARGET_NAME="przeksztalceniaPVM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OGLSamples" RUN_TARGET_NAME="przeksztalceniaPVM">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uniform1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OGLSamples" TARGET_NAME="uniform1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OGLSamples" RUN_TARGET_NAME="uniform1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.buffor1" />
       <item itemvalue="Application.buffor2" />
+      <item itemvalue="Application.buffor3" />
       <item itemvalue="Application.OGLSample1" />
       <item itemvalue="Application.OGLSample2_IB_VBO" />
+      <item itemvalue="Application.przeksztalceniaPVM" />
+      <item itemvalue="Application.uniform1" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -285,7 +381,7 @@
       <workItem from="1543037014304" duration="3756000" />
       <workItem from="1543055251427" duration="4262000" />
       <workItem from="1543059580580" duration="3214000" />
-      <workItem from="1543063468608" duration="4407000" />
+      <workItem from="1543063468608" duration="10040000" />
     </task>
     <task id="LOCAL-00001" summary="after buld">
       <created>1543038480838</created>
@@ -357,17 +453,66 @@
       <option name="project" value="LOCAL" />
       <updated>1543067704664</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added uniform1">
+      <created>1543067929240</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1543067929240</updated>
+    </task>
+    <task id="LOCAL-00012" summary="implemented intensity">
+      <created>1543069219993</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1543069219993</updated>
+    </task>
+    <task id="LOCAL-00013" summary="init commit przeksztalceniaPVM">
+      <created>1543069677471</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1543069677471</updated>
+    </task>
+    <task id="LOCAL-00014" summary="init commit przeksztalceniaPVM">
+      <created>1543069715124</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1543069715124</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added shades">
+      <created>1543069830256</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1543069830256</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update shader location">
+      <created>1543070093156</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1543070093156</updated>
+    </task>
+    <task id="LOCAL-00017" summary="removed intencity">
+      <created>1543072747245</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1543072747245</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15639000" />
+    <option name="totallyTimeSpent" value="21272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="1549" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21889554" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23486361" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -379,7 +524,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32977304" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3125" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.16527778" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.26805556" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -436,7 +581,13 @@
     <MESSAGE value="added buffer zad 3" />
     <MESSAGE value="fix buffer read attribute" />
     <MESSAGE value="simple deep and wall hiding" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple deep and wall hiding" />
+    <MESSAGE value="added uniform1" />
+    <MESSAGE value="implemented intensity" />
+    <MESSAGE value="init commit przeksztalceniaPVM" />
+    <MESSAGE value="added shades" />
+    <MESSAGE value="update shader location" />
+    <MESSAGE value="removed intencity" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed intencity" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/buffor1/CMakeFiles/Scene.h" />
@@ -475,13 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Libs/glbinding/include/glbinding/gl/functions.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="2830" column="19" selection-start-line="2830" selection-start-column="19" selection-end-line="2830" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../Grafika-master/Shaders/very_simple_vs.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -498,20 +642,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/buffor1/Makefile">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shaders/very_simple_fs.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shaders/very_simple_vs.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/buffor2/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -558,6 +688,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/uniform1/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/buffor3/Scene.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
@@ -568,17 +705,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/uniform1/Scene.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+        <state relative-caret-position="555">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uniform1/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/../Shaders/very_simple_fs.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shaders/very_simple_vs.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeCache.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/przeksztalceniaPVM/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/przeksztalceniaPVM/Scene.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Libs/glbinding/include/glbinding/gl/functions.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="152" column="19" selection-start-line="152" selection-start-column="19" selection-end-line="152" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Libs/glm/include/glm/vec3.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uniform1/libs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="e#58#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/przeksztalceniaPVM/libs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="21" selection-start-line="21" selection-end-line="24" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/przeksztalceniaPVM/shader/very_simple_vs.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/przeksztalceniaPVM/shader/very_simple_fs.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/przeksztalceniaPVM/Scene.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="106" column="61" selection-start-line="106" selection-start-column="61" selection-end-line="106" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

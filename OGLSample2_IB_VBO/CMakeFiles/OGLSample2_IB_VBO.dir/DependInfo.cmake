@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.cpp" "/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.o"
-  "/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.cpp" "/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.o"
-  "/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/main.cpp" "/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.o"
+  "/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.cpp" "/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.o"
+  "/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.cpp" "/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.o"
+  "/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/main.cpp" "/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

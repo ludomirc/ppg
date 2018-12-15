@@ -1,4 +1,4 @@
-# Install script for directory: /home/benek/workspace/g1/Grafika-master/OGLSamples
+# Install script for directory: /home/benek/workspace/Grafika-master/OGLSamples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/cmake_install.cmake")
-  include("/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/cmake_install.cmake")
-  include("/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/cmake_install.cmake")
-  include("/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/cmake_install.cmake")
-  include("/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/cmake_install.cmake")
-  include("/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/cmake_install.cmake")
-  include("/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/cmake_install.cmake")
+  include("/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake_install.cmake")
+  include("/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/cmake_install.cmake")
+  include("/home/benek/workspace/Grafika-master/OGLSamples/buffor1/cmake_install.cmake")
+  include("/home/benek/workspace/Grafika-master/OGLSamples/buffor2/cmake_install.cmake")
+  include("/home/benek/workspace/Grafika-master/OGLSamples/buffor3/cmake_install.cmake")
+  include("/home/benek/workspace/Grafika-master/OGLSamples/uniform1/cmake_install.cmake")
+  include("/home/benek/workspace/Grafika-master/OGLSamples/przeksztalceniaPVM/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/benek/workspace/g1/Grafika-master/OGLSamples/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/benek/workspace/Grafika-master/OGLSamples/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Scene.cpp" "/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/CMakeFiles/buffor3.dir/Scene.cpp.o"
-  "/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Utilities.cpp" "/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/CMakeFiles/buffor3.dir/Utilities.cpp.o"
-  "/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/main.cpp" "/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/CMakeFiles/buffor3.dir/main.cpp.o"
+  "/home/benek/workspace/Grafika-master/OGLSamples/buffor3/Scene.cpp" "/home/benek/workspace/Grafika-master/OGLSamples/buffor3/CMakeFiles/buffor3.dir/Scene.cpp.o"
+  "/home/benek/workspace/Grafika-master/OGLSamples/buffor3/Utilities.cpp" "/home/benek/workspace/Grafika-master/OGLSamples/buffor3/CMakeFiles/buffor3.dir/Utilities.cpp.o"
+  "/home/benek/workspace/Grafika-master/OGLSamples/buffor3/main.cpp" "/home/benek/workspace/Grafika-master/OGLSamples/buffor3/CMakeFiles/buffor3.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

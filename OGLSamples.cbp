@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OGLSamples"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\OGLSample1\;CMake Files\..\;CMake Files\..\cmake\;CMake Files\..\cmake\Modules\;CMake Files\OGLSample2_IB_VBO\;CMake Files\buffor1\;CMake Files\buffor2\;CMake Files\buffor3\;CMake Files\uniform1\;CMake Files\przeksztalceniaPVM\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLSample1">
+				<Option output="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/OGLSample1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glm/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/gli/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Makefile&quot;  VERBOSE=1 OGLSample1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLSample1/fast">
+				<Option output="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/OGLSample1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glm/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/gli/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Makefile&quot;  VERBOSE=1 OGLSample1/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLSample2_IB_VBO">
+				<Option output="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/OGLSample2_IB_VBO" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glm/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/gli/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Makefile&quot;  VERBOSE=1 OGLSample2_IB_VBO"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLSample2_IB_VBO/fast">
+				<Option output="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/OGLSample2_IB_VBO" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glm/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/gli/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Makefile&quot;  VERBOSE=1 OGLSample2_IB_VBO/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="buffor1">
+				<Option output="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/buffor1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glm/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/gli/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/Makefile&quot;  VERBOSE=1 buffor1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="buffor1/fast">
+				<Option output="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/buffor1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glm/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/gli/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/Makefile&quot;  VERBOSE=1 buffor1/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="buffor2">
+				<Option output="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/buffor2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glm/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/gli/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/Makefile&quot;  VERBOSE=1 buffor2"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="buffor2/fast">
+				<Option output="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/buffor2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glm/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/gli/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/Makefile&quot;  VERBOSE=1 buffor2/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="buffor3">
+				<Option output="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/buffor3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glm/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/gli/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Makefile&quot;  VERBOSE=1 buffor3"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="buffor3/fast">
+				<Option output="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/buffor3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glm/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/gli/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Makefile&quot;  VERBOSE=1 buffor3/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uniform1">
+				<Option output="/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/uniform1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glm/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/gli/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/Makefile&quot;  VERBOSE=1 uniform1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uniform1/fast">
+				<Option output="/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/uniform1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glm/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/gli/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/Makefile&quot;  VERBOSE=1 uniform1/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="przeksztalceniaPVM">
+				<Option output="/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/przeksztalceniaPVM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glm/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/gli/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/Makefile&quot;  VERBOSE=1 przeksztalceniaPVM"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="przeksztalceniaPVM/fast">
+				<Option output="/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/przeksztalceniaPVM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glm/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/gli/include"/>
+					<Add directory="/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/Makefile&quot;  VERBOSE=1 przeksztalceniaPVM/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Scene.cpp">
+			<Option target="OGLSample1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Scene.h">
+			<Option target="OGLSample1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Utilities.cpp">
+			<Option target="OGLSample1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Utilities.h">
+			<Option target="OGLSample1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/libs.h">
+			<Option target="OGLSample1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/main.cpp">
+			<Option target="OGLSample1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.cpp">
+			<Option target="OGLSample2_IB_VBO"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.h">
+			<Option target="OGLSample2_IB_VBO"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.cpp">
+			<Option target="OGLSample2_IB_VBO"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.h">
+			<Option target="OGLSample2_IB_VBO"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/libs.h">
+			<Option target="OGLSample2_IB_VBO"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/main.cpp">
+			<Option target="OGLSample2_IB_VBO"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/Scene.cpp">
+			<Option target="buffor1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/Scene.h">
+			<Option target="buffor1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/Utilities.cpp">
+			<Option target="buffor1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/Utilities.h">
+			<Option target="buffor1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/libs.h">
+			<Option target="buffor1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/main.cpp">
+			<Option target="buffor1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/Scene.cpp">
+			<Option target="buffor2"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/Scene.h">
+			<Option target="buffor2"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/Utilities.cpp">
+			<Option target="buffor2"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/Utilities.h">
+			<Option target="buffor2"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/libs.h">
+			<Option target="buffor2"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/main.cpp">
+			<Option target="buffor2"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Scene.cpp">
+			<Option target="buffor3"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Scene.h">
+			<Option target="buffor3"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Utilities.cpp">
+			<Option target="buffor3"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/Utilities.h">
+			<Option target="buffor3"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/libs.h">
+			<Option target="buffor3"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/main.cpp">
+			<Option target="buffor3"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/Scene.cpp">
+			<Option target="przeksztalceniaPVM"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/Scene.h">
+			<Option target="przeksztalceniaPVM"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/Utilities.cpp">
+			<Option target="przeksztalceniaPVM"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/Utilities.h">
+			<Option target="przeksztalceniaPVM"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/libs.h">
+			<Option target="przeksztalceniaPVM"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/main.cpp">
+			<Option target="przeksztalceniaPVM"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/Scene.cpp">
+			<Option target="uniform1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/Scene.h">
+			<Option target="uniform1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/Utilities.cpp">
+			<Option target="uniform1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/Utilities.h">
+			<Option target="uniform1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/libs.h">
+			<Option target="uniform1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/main.cpp">
+			<Option target="uniform1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OGLSample1\"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/../cmake/Modules/Findglbinding.cmake">
+			<Option virtualFolder="CMake Files\..\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OGLSample2_IB_VBO\"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\buffor1\"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\buffor2\"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/buffor3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\buffor3\"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/uniform1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\uniform1\"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\przeksztalceniaPVM\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

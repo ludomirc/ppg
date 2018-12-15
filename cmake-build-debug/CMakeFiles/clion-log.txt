@@ -12,6 +12,15 @@ glbinding libraries: optimized;/home/benek/workspace/g1/Grafika-master/OGLSample
 glbinding found: YES
 glbinding include dir: /home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include
 glbinding libraries: optimized;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding.a;optimized;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a;debug;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding.a;debug;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a
+glbinding found: YES
+glbinding include dir: /home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include
+glbinding libraries: optimized;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding.a;optimized;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a;debug;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding.a;debug;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a
+glbinding found: YES
+glbinding include dir: /home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include
+glbinding libraries: optimized;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding.a;optimized;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a;debug;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding.a;debug;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a
+glbinding found: YES
+glbinding include dir: /home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/include
+glbinding libraries: optimized;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding.a;optimized;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a;debug;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding.a;debug;/home/benek/workspace/g1/Grafika-master/OGLSamples/../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/benek/workspace/g1/Grafika-master/OGLSamples

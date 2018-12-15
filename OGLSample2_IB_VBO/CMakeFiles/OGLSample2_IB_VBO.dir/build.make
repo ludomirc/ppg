@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/benek/workspace/g1/Grafika-master/OGLSamples
+CMAKE_SOURCE_DIR = /home/benek/workspace/Grafika-master/OGLSamples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/benek/workspace/g1/Grafika-master/OGLSamples
+CMAKE_BINARY_DIR = /home/benek/workspace/Grafika-master/OGLSamples
 
 # Include any dependencies generated for this target.
 include OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/depend.make
@@ -59,16 +59,16 @@ include OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/flags.make
 
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.o: OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/flags.make
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.o: OGLSample2_IB_VBO/Scene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.o"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.o -c /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.o"
+	cd /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.o -c /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.cpp
 
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.i"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.cpp > CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.i
+	cd /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.cpp > CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.i
 
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.s"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.cpp -o CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.s
+	cd /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.cpp -o CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.s
 
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.o.requires:
 
@@ -83,16 +83,16 @@ OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.o.provides.build: O
 
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.o: OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/flags.make
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.o: OGLSample2_IB_VBO/Utilities.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.o"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.o -c /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.o"
+	cd /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.o -c /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.cpp
 
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.i"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.cpp > CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.i
+	cd /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.cpp > CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.i
 
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.s"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.cpp -o CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.s
+	cd /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.cpp -o CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.s
 
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.o.requires:
 
@@ -107,16 +107,16 @@ OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.o.provides.buil
 
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.o: OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/flags.make
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.o: OGLSample2_IB_VBO/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.o"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.o -c /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.o"
+	cd /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.o -c /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/main.cpp
 
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.i"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/main.cpp > CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.i
+	cd /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/main.cpp > CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.i
 
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.s"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/main.cpp -o CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.s
+	cd /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/main.cpp -o CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.s
 
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.o.requires:
 
@@ -145,8 +145,8 @@ OGLSample2_IB_VBO/OGLSample2_IB_VBO: OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_
 OGLSample2_IB_VBO/OGLSample2_IB_VBO: ../Libs/glbinding/lib/Linux/linux64/libglbinding.a
 OGLSample2_IB_VBO/OGLSample2_IB_VBO: ../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a
 OGLSample2_IB_VBO/OGLSample2_IB_VBO: OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/benek/workspace/g1/Grafika-master/OGLSamples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable OGLSample2_IB_VBO"
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OGLSample2_IB_VBO.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/benek/workspace/Grafika-master/OGLSamples/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable OGLSample2_IB_VBO"
+	cd /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OGLSample2_IB_VBO.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/build: OGLSample2_IB_VBO/OGLSample2_IB_VBO
@@ -160,10 +160,10 @@ OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/requires: OGLSample2_IB_VBO/C
 .PHONY : OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/requires
 
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/clean:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO && $(CMAKE_COMMAND) -P CMakeFiles/OGLSample2_IB_VBO.dir/cmake_clean.cmake
+	cd /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO && $(CMAKE_COMMAND) -P CMakeFiles/OGLSample2_IB_VBO.dir/cmake_clean.cmake
 .PHONY : OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/clean
 
 OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/depend:
-	cd /home/benek/workspace/g1/Grafika-master/OGLSamples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/benek/workspace/g1/Grafika-master/OGLSamples /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO /home/benek/workspace/g1/Grafika-master/OGLSamples /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO /home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/benek/workspace/Grafika-master/OGLSamples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/benek/workspace/Grafika-master/OGLSamples /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO /home/benek/workspace/Grafika-master/OGLSamples /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO /home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : OGLSample2_IB_VBO/CMakeFiles/OGLSample2_IB_VBO.dir/depend
 

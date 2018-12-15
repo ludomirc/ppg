@@ -18,7 +18,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "buffor3/CMakeLists.txt"
   "przeksztalceniaPVM/CMakeLists.txt"
   "uniform1/CMakeLists.txt"
-  "/home/benek/workspace/g1/Grafika-master/cmake/Modules/Findglbinding.cmake"
+  "/home/benek/workspace/Grafika-master/cmake/Modules/Findglbinding.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"

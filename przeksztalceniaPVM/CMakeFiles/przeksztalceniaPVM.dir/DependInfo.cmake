@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/Scene.cpp" "/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/Scene.cpp.o"
-  "/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/Utilities.cpp" "/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/Utilities.cpp.o"
-  "/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/main.cpp" "/home/benek/workspace/g1/Grafika-master/OGLSamples/przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/main.cpp.o"
+  "/home/benek/workspace/Grafika-master/OGLSamples/przeksztalceniaPVM/Scene.cpp" "/home/benek/workspace/Grafika-master/OGLSamples/przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/Scene.cpp.o"
+  "/home/benek/workspace/Grafika-master/OGLSamples/przeksztalceniaPVM/Utilities.cpp" "/home/benek/workspace/Grafika-master/OGLSamples/przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/Utilities.cpp.o"
+  "/home/benek/workspace/Grafika-master/OGLSamples/przeksztalceniaPVM/main.cpp" "/home/benek/workspace/Grafika-master/OGLSamples/przeksztalceniaPVM/CMakeFiles/przeksztalceniaPVM.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

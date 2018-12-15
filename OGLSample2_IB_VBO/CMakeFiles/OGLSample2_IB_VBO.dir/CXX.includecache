@@ -308,25 +308,25 @@ glbinding/glbinding_export.h
 
 ../Libs/glbinding/include/glbinding/nogl.h
 
-/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.cpp
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.cpp
 Scene.h
-/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.h
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.h
 Utilities.h
-/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.h
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.h
 
-/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.h
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.h
 libs.h
-/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/libs.h
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/libs.h
 
-/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.cpp
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.cpp
 Utilities.h
-/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.h
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.h
 
-/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.h
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Utilities.h
 libs.h
-/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/libs.h
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/libs.h
 
-/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/libs.h
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/libs.h
 iostream
 -
 string
@@ -354,9 +354,9 @@ glbinding/glbinding.h
 GLFW/glfw3.h
 -
 
-/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/main.cpp
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/main.cpp
 libs.h
-/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/libs.h
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/libs.h
 Scene.h
-/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.h
+/home/benek/workspace/Grafika-master/OGLSamples/OGLSample2_IB_VBO/Scene.h
 

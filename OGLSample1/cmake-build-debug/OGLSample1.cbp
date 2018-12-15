@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OGLSample1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\glbinding\;CMake Files\..\..\..\..\..\..\usr\local\share\glbinding\cmake\;CMake Files\..\..\..\..\..\..\usr\local\share\glbinding\cmake\glbinding\;CMake Files\..\..\..\..\..\..\usr\local\share\glbinding\cmake\glbinding-aux\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLSample1">
+				<Option output="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/OGLSample1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 OGLSample1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLSample1/fast">
+				<Option output="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/OGLSample1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 OGLSample1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/Scene.cpp">
+			<Option target="OGLSample1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/Scene.h">
+			<Option target="OGLSample1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/Utilities.cpp">
+			<Option target="OGLSample1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/Utilities.h">
+			<Option target="OGLSample1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp">
+			<Option target="OGLSample1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/libs.h">
+			<Option target="OGLSample1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/main.cpp">
+			<Option target="OGLSample1"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/../../../../../../usr/local/share/glbinding/glbinding-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\glbinding\"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/../../../../../../usr/local/share/glbinding/cmake/glbinding/glbinding-export-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\glbinding\cmake\glbinding\"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/../../../../../../usr/local/share/glbinding/cmake/glbinding/glbinding-export.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\glbinding\cmake\glbinding\"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/../../../../../../usr/local/share/glbinding/cmake/glbinding-aux/glbinding-aux-export-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\glbinding\cmake\glbinding-aux\"/>
+		</Unit>
+		<Unit filename="/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/../../../../../../usr/local/share/glbinding/cmake/glbinding-aux/glbinding-aux-export.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\glbinding\cmake\glbinding-aux\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

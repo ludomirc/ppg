@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Scene.cpp" "/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/CMakeFiles/OGLSample1.dir/Scene.cpp.o"
-  "/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/Utilities.cpp" "/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/CMakeFiles/OGLSample1.dir/Utilities.cpp.o"
-  "/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/main.cpp" "/home/benek/workspace/g1/Grafika-master/OGLSamples/OGLSample1/CMakeFiles/OGLSample1.dir/main.cpp.o"
+  "/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/Scene.cpp" "/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/CMakeFiles/OGLSample1.dir/Scene.cpp.o"
+  "/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/Utilities.cpp" "/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/CMakeFiles/OGLSample1.dir/Utilities.cpp.o"
+  "/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/main.cpp" "/home/benek/workspace/Grafika-master/OGLSamples/OGLSample1/CMakeFiles/OGLSample1.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

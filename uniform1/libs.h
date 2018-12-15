@@ -18,5 +18,4 @@
 #include <glbinding/glbinding.h>
 
 #include <GLFW/glfw3.h>
-
 #endif // LIBS_H
