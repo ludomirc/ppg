@@ -1,1 +1,0 @@
-/usr/bin/c++   --std=c++17 -g   -rdynamic CMakeFiles/OGLSample2_IB_VBO.dir/Scene.cpp.o CMakeFiles/OGLSample2_IB_VBO.dir/Utilities.cpp.o CMakeFiles/OGLSample2_IB_VBO.dir/main.cpp.o  -o OGLSample2_IB_VBO ../../../Libs/glbinding/lib/Linux/linux64/libglbinding.a ../../../Libs/glbinding/lib/Linux/linux64/libglbinding-aux.a --std=c++17 -lGL -lglfw -lpthread 

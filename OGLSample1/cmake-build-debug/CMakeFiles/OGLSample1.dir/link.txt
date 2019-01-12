@@ -1,1 +1,0 @@
-/usr/bin/c++    -g   -rdynamic CMakeFiles/OGLSample1.dir/Scene.o CMakeFiles/OGLSample1.dir/Utilities.o CMakeFiles/OGLSample1.dir/CMakeFiles/3.12.2/CompilerIdCXX/CMakeCXXCompilerId.o CMakeFiles/OGLSample1.dir/main.o  -o OGLSample1 
